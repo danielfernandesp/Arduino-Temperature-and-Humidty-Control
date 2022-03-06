@@ -1,0 +1,5 @@
+#List especified port device and verify if it works
+ls -l /dev/ttyYSB0
+#Writing read and write permission to port acess
+sudo chmod a+rw /dev/ttyUSB0
+
